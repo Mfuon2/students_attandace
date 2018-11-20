@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Brian Ndirangu\\AndroidStudioProjects\\AttendanceSystem1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Brian Ndirangu\\AndroidStudioProjects\\AttendanceSystem1\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "39",
+                        "endOffsets": "92"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "39",
+                        "endOffsets": "90"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Brian Ndirangu\\AndroidStudioProjects\\AttendanceSystem1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "95",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "241"
+                    }
+                }
+            ]
+        }
+    ]
+}

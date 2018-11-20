@@ -1,0 +1,159 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b2c8b4d5432cd9831a5d39b97e373cac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\47e2cafa25adf8a8ae41ff21976b5290\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\923dce48dfc11933d678cb3c138468f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d9caf5f632d7e3dfcf9d99ef5457f46b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ee50159354e290a7d11bbfaf78a0f629\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1b27e6a1adfc902942664aca5ae56d8e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8bd9b74d3ac6692f44acd99f00228110\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\180b6cb4118fc16486eda4681cdf868e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2507dd09dc2c0ff3c74a73ae578c47ec\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d947e32ecca0ed15ccea8a9455d7f256\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:2:1-52:12
+	package
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:4:5-35
+		INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:8:5-70
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:8:22-67
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:10:22-64
+application
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:12:5-51:19
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:14:9-41
+	tools:ignore
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:15:9-60
+	android:icon
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:13:9-54
+activity#com.attendancesystem.MainAd
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:16:9-23:20
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:17:13-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.attendancesystem.RegisterActivity
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:24:9-26:48
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:25:13-45
+activity#com.attendancesystem.TestActivity
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:27:9-29:48
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:29:13-45
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:28:13-41
+activity#com.attendancesystem.ManageActivity
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:30:9-32:48
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:32:13-45
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:31:13-43
+activity#com.attendancesystem.AttendanceActivity
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:33:9-35:48
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:34:13-47
+activity#com.attendancesystem.Register_adminActivity
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:36:9-38:48
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:38:13-45
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:37:13-51
+activity#com.attendancesystem.Admin_homeActivity
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:39:9-41:48
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:41:13-45
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:40:13-47
+activity#com.attendancesystem.StudentActivity
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:42:9-44:48
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:44:13-45
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:43:13-44
+activity#com.attendancesystem.FactultyActivity
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:45:9-47:48
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:47:13-45
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:46:13-45
+activity#com.attendancesystem.ViewActivity
+ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:48:9-50:48
+	android:label
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:49:13-41
+uses-sdk
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b2c8b4d5432cd9831a5d39b97e373cac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b2c8b4d5432cd9831a5d39b97e373cac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\47e2cafa25adf8a8ae41ff21976b5290\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\47e2cafa25adf8a8ae41ff21976b5290\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\923dce48dfc11933d678cb3c138468f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\923dce48dfc11933d678cb3c138468f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d9caf5f632d7e3dfcf9d99ef5457f46b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d9caf5f632d7e3dfcf9d99ef5457f46b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ee50159354e290a7d11bbfaf78a0f629\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ee50159354e290a7d11bbfaf78a0f629\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1b27e6a1adfc902942664aca5ae56d8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1b27e6a1adfc902942664aca5ae56d8e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8bd9b74d3ac6692f44acd99f00228110\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8bd9b74d3ac6692f44acd99f00228110\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\180b6cb4118fc16486eda4681cdf868e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\180b6cb4118fc16486eda4681cdf868e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2507dd09dc2c0ff3c74a73ae578c47ec\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2507dd09dc2c0ff3c74a73ae578c47ec\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d947e32ecca0ed15ccea8a9455d7f256\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d947e32ecca0ed15ccea8a9455d7f256\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
