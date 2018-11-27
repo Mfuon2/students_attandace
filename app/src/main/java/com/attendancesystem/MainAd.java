@@ -41,7 +41,7 @@ public class MainAd extends Activity {
   			{
   				if(fccode.equals(""))
   				{
-  				Toast.makeText(getApplicationContext(), "Pls Fill in the Username!", Toast.LENGTH_LONG).show();
+  				Toast.makeText(getApplicationContext(), "Username Cannot Be Empty", Toast.LENGTH_LONG).show();
   				}
   				else  if(fcpass.equals(""))
   				{	

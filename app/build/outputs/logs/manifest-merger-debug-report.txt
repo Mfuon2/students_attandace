@@ -5,6 +5,7 @@ INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\ap
 INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:2:1-52:12
 INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml:2:1-52:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b2c8b4d5432cd9831a5d39b97e373cac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\c5016b9903373569711e76d1a5366e61\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\47e2cafa25adf8a8ae41ff21976b5290\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\923dce48dfc11933d678cb3c138468f8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d9caf5f632d7e3dfcf9d99ef5457f46b\AndroidManifest.xml:17:1-22:12
@@ -129,6 +130,8 @@ INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\ap
 INJECTED from C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b2c8b4d5432cd9831a5d39b97e373cac\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b2c8b4d5432cd9831a5d39b97e373cac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\c5016b9903373569711e76d1a5366e61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\c5016b9903373569711e76d1a5366e61\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\47e2cafa25adf8a8ae41ff21976b5290\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\47e2cafa25adf8a8ae41ff21976b5290\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Brian Ndirangu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\923dce48dfc11933d678cb3c138468f8\AndroidManifest.xml:20:5-44

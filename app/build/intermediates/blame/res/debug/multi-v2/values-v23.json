@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Brian Ndirangu\\AndroidStudioProjects\\AttendanceSystem1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Brian Ndirangu\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\c5016b9903373569711e76d1a5366e61\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    }
+                }
+            ]
+        }
+    ]
+}

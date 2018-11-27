@@ -104,6 +104,10 @@
         "source": "C:\\Users\\Brian Ndirangu\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1b27e6a1adfc902942664aca5ae56d8e\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
+        "merged": "C:\\Users\\Brian Ndirangu\\AndroidStudioProjects\\AttendanceSystem1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dark.jpg.flat",
+        "source": "C:\\Users\\Brian Ndirangu\\AndroidStudioProjects\\AttendanceSystem1\\app\\src\\main\\res\\drawable\\dark.jpg"
+    },
+    {
         "merged": "C:\\Users\\Brian Ndirangu\\AndroidStudioProjects\\AttendanceSystem1\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\Brian Ndirangu\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1b27e6a1adfc902942664aca5ae56d8e\\res\\layout\\notification_action_tombstone.xml"
     },

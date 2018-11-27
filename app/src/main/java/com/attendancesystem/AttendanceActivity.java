@@ -3,17 +3,21 @@ package com.attendancesystem;
 import java.util.ArrayList;
 
 
-
+import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.support.v4.app.ActivityCompat;
 import android.telephony.SmsManager;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
@@ -24,6 +28,8 @@ import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
 public class AttendanceActivity extends ListActivity {
+	private static final String TAG = "MFUON CODE HERE ************** " ;
+	private static final int MY_PERMISSIONS_REQUEST_SEND_SMS = 1;
 	public String Sccode = MainAd.fccode;
 	public String[] usn;
 	public int[] sid;
@@ -152,7 +158,13 @@ public class AttendanceActivity extends ListActivity {
 					missed=c1.getInt(5);
 					phone=c1.getString(6);
 					try{
-						sendSMS("5556",phone);
+						checkForSmsPermission();
+					}catch (Exception e){
+						Toast.makeText(getApplicationContext(), " Error On Permission "+e+"", Toast.LENGTH_LONG).show();
+					}
+					try{
+						Toast.makeText(getApplicationContext(), " Phone : *******  "+phone+"", Toast.LENGTH_LONG).show();
+						sendSMS(phone,"Hello There You Missed a Class");
 						}
 					catch(Exception e)
 					{
@@ -176,6 +188,47 @@ public class AttendanceActivity extends ListActivity {
 			Intent i=new Intent(AttendanceActivity.this,TestActivity.class);
 			finish();
 			startActivity(i);
+	}
+
+	@Override
+	public void onRequestPermissionsResult(int requestCode,
+										   String permissions[], int[] grantResults) {
+		switch (requestCode) {
+			case MY_PERMISSIONS_REQUEST_SEND_SMS: {
+				// If request is cancelled, the result arrays are empty.
+				if (grantResults.length > 0
+						&& grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+					// permission was granted, yay! Do the
+					// SMS related task you need to do.
+
+				} else {
+					// permission denied, boo! Disable the
+					// functionality that depends on this permission.
+				}
+				return;
+			}
+			// other 'case' lines to check for other
+			// permissions this app might request
+		}
+	}
+
+	@SuppressLint("LongLogTag")
+	private void checkForSmsPermission() {
+		if (ActivityCompat.checkSelfPermission(this,
+				Manifest.permission.SEND_SMS) !=
+				PackageManager.PERMISSION_GRANTED) {
+			Log.d(TAG, "******************** PERMISSION NOT GRANTED ******************* ");
+			// Permission not yet granted. Use requestPermissions().
+			// MY_PERMISSIONS_REQUEST_SEND_SMS is an
+			// app-defined int constant. The callback method gets the
+			// result of the request.
+			ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.SEND_SMS},MY_PERMISSIONS_REQUEST_SEND_SMS);
+		} else {
+			// Permission already granted. Enable the SMS button.
+		}
+
+
 	}
 	public int compare(int sid)
 	{

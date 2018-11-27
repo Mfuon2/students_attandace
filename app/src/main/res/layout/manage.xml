@@ -3,52 +3,86 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-     android:paddingTop="200px"  
-     android:background="@color/white"
+	android:paddingTop="20dp"
+	android:scrollbars="vertical"
+	android:background="@drawable/dark"
          >
-    <Button 
-  		android:id="@+id/man_stu"
-  		android:paddingTop="20px"
-  		android:text="Manage Students"
-  		android:layout_gravity="center"
-  		android:layout_width="250px"
-  		android:layout_height="wrap_content"
-  		android:onClick="manage_stud"
-  		android:clickable="true"
-  		
-  />
-  <Button 
-  		android:id="@+id/sin"
-  		android:paddingTop="20px"
-  		android:text="Mark Attendance"
-  		android:layout_gravity="center"
-  		android:layout_width="250px"
-  		android:layout_height="wrap_content"
-  		android:onClick="mark_att"
-  		android:clickable="true"
-  		
-  />
-  <Button 
-  		android:id="@+id/view"
-  		android:paddingTop="20px"
-  		android:text="View Attendance"
-  		android:layout_gravity="center"
-  		android:layout_width="250px"
-  		android:layout_height="wrap_content"
-  		android:onClick="view_att"
-  		android:clickable="true"
-  		
-  />
-    <Button 
-  		android:id="@+id/view"
-  		android:paddingTop="20px"
-  		android:text="Log Out"
-  		android:layout_gravity="center"
-  		android:layout_width="250px"
-  		android:layout_height="wrap_content"
-  		android:onClick="log_out"
-  		android:clickable="true"
-  		
-  />
-  
-    </LinearLayout>
+
+	<TextView
+		android:id="@+id/textView5"
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:textAlignment="center"
+		android:gravity="center"
+		android:text="Attendance Console"
+		android:textColor="@android:color/holo_blue_dark"
+		android:textSize="24sp"
+		android:textStyle="bold" />
+
+	<Button
+		android:id="@+id/man_stu"
+		style="@android:style/Widget.Button"
+		android:layout_width="342dp"
+		android:layout_height="105dp"
+		android:layout_gravity="center"
+		android:layout_marginBottom="20dp"
+		android:background="@android:color/background_light"
+		android:clickable="true"
+		android:onClick="manage_stud"
+		android:paddingTop="20px"
+		android:text="Manage Students"
+
+		android:textColor="@android:color/holo_blue_dark"
+		android:textStyle="bold" />
+
+	<Button
+		android:id="@+id/sin"
+		style="@android:style/Widget.Button"
+		android:layout_width="342dp"
+		android:layout_height="105dp"
+		android:layout_gravity="center"
+		android:layout_marginBottom="20dp"
+		android:background="@android:color/background_light"
+		android:clickable="true"
+		android:onClick="mark_att"
+		android:paddingTop="20px"
+		android:text="Mark Attendance"
+
+		android:textColor="@android:color/holo_blue_dark"
+		android:textStyle="bold" />
+
+	<Button
+		android:id="@+id/view"
+		style="@android:style/Widget.Button"
+		android:layout_width="342dp"
+		android:layout_height="105dp"
+		android:layout_gravity="center"
+		android:layout_marginBottom="20dp"
+		android:background="@android:color/background_light"
+		android:clickable="true"
+		android:onClick="view_att"
+		android:paddingTop="20px"
+		android:text="View Attendance"
+
+		android:textColor="@android:color/holo_blue_dark"
+		android:textStyle="bold" />
+
+	<Button
+		android:id="@+id/view"
+		style="@android:style/Widget.Button"
+		android:layout_width="342dp"
+		android:layout_height="105dp"
+		android:layout_gravity="center"
+		android:layout_marginBottom="20dp"
+		android:background="@android:color/background_light"
+		android:clickable="true"
+		android:onClick="log_out"
+		android:paddingTop="20px"
+		android:text="Log Out"
+
+		android:textColor="@android:color/holo_blue_dark"
+		android:textStyle="bold" />
+
+
+
+</LinearLayout>

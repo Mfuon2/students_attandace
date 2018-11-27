@@ -1,48 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:paddingTop="100px"
-      android:background="@color/white"
+    android:background="@drawable/dark"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:scrollbars="vertical">
 
-    >
-    <EditText 
-	android:id="@+id/Tname"
-	android:hint="Faculty Name"
-	android:layout_width="350px"
-	android:layout_height="wrap_content"
-	android:layout_gravity="center"
->
-<requestFocus></requestFocus>
-</EditText>
- 
-<EditText 
-		android:id="@+id/Password"
-		android:password="true"
-		android:paddingTop="20px"
-		android:layout_height="wrap_content" 
-		android:hint="Password" 
-		android:layout_width="350px" 
-		android:layout_gravity="center">
-  </EditText>
-   <EditText 
-  		android:id="@+id/Code"
-  		android:layout_width="350px"
-  		android:layout_height="wrap_content"
-  		android:paddingTop="20px"
-  		android:hint="Subject Code"
-  		android:layout_gravity="center"
-  		/>
-  		<Button 
-  			android:layout_width="175px"
-  			android:layout_height="wrap_content"
-  			android:text="Get Started!"
-  			android:paddingTop="20px"
-  			android:layout_gravity="center"
-  			android:onClick="home_start"
-  			android:clickable="true"
-  			android:id="@+id/bu1"
-  			/>
- 
-    </LinearLayout>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:text="Subject Management"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="20dp">
+
+
+        <EditText
+            android:id="@+id/Tname"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Faculty Name">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="100dp"
+            android:hint="Password"
+            android:password="true" />
+
+        <EditText
+            android:id="@+id/Code"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="180dp"
+            android:hint="Subject Code" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/bu1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_width="305dp"
+        style="@android:style/Widget.Button"
+        android:background="@android:color/background_light"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:onClick="home_start"
+        android:text="Get Started!" />
+
+
+</LinearLayout>

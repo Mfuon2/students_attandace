@@ -4,43 +4,67 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" 
     android:paddingTop="125dp"
-      android:background="@color/white"
-    >
-<EditText 
-	android:id="@+id/Username"
-	android:hint="Subject Code"
-	android:layout_width="350dp"
-	android:layout_height="wrap_content"
-	android:layout_gravity="center"
->
-<requestFocus></requestFocus>
-</EditText>
+      android:background="@color/white">
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="84dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginBottom="20dp"
+		android:layout_marginTop="5dp"
+		android:text="Login"
+		android:textColor="@android:color/holo_blue_dark"
+		android:textSize="30sp" />
+
+	<EditText
+		android:id="@+id/Username"
+		android:layout_width="350dp"
+		android:layout_height="56dp"
+		android:layout_gravity="center"
+		android:layout_marginBottom="10dp"
+		android:hint="Code">
+
+		<requestFocus />
+	</EditText>
 <EditText 
 		android:id="@+id/Password"
 		android:password="true"
 		android:paddingTop="20dp"
 		android:layout_height="wrap_content" 
 		android:hint="Password" 
-		android:layout_width="350dp" 
+		android:layout_width="350dp"
+	android:layout_marginBottom="10dp"
 		android:layout_gravity="center">
   </EditText>
-  <Button 
-  		android:id="@+id/sin"
-  		android:paddingTop="20dp"
-  		android:text="Sign in"
-  		android:layout_gravity="center"
-  		android:layout_width="150dp"
-  		android:layout_height="wrap_content"
-  		android:onClick="home"
-  		android:clickable="true"
-  		
-  />
-  <Button  
-  		android:layout_width="150dp"
-  		android:layout_height="wrap_content"
-  		android:text="Admin"
-  		android:layout_gravity="center"
-  		android:onClick="register"
-  		android:clickable="true"
-  />
+
+    <Button
+        android:id="@+id/sin"
+        style="@android:style/Widget.Button"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_green_dark"
+        android:clickable="true"
+        android:onClick="home"
+        android:text="Sign in"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:layout_width="305dp"
+		style="@android:style/Widget.Button"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/background_light"
+		android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+		android:textColor="@android:color/holo_blue_light"
+		android:clickable="true"
+        android:onClick="register"
+        android:text="Admin Login"
+       />
+
+
+
 </LinearLayout>

@@ -4,44 +4,61 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" 
     android:paddingTop="125px"
+	android:layout_marginTop="50dp"
       android:background="@android:drawable/screen_background_light">
-<EditText 
-	android:id="@+id/AdminName"
-	android:hint="Admin Name"
-	android:layout_width="350px"
-	android:layout_height="wrap_content"
-	android:layout_gravity="center"
->
-<requestFocus></requestFocus>
-</EditText>
-<EditText 
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginBottom="20dp"
+		android:text="Admin Initialization"
+		android:textColor="@android:color/holo_blue_dark"
+		android:textSize="24sp" />
+
+	<EditText
+		android:id="@+id/AdminName"
+		android:layout_width="333dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:hint="Admin Name">
+
+		<requestFocus></requestFocus>
+	</EditText>
+
+	<EditText
 		android:id="@+id/AdminPass"
-		android:password="true"
+		android:layout_width="332dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="5dp"
+		android:hint="Password"
 		android:paddingTop="20px"
-		android:layout_height="wrap_content" 
-		android:hint="Password" 
-		android:layout_width="350px" 
-		android:layout_gravity="center">
-  </EditText>
-  <EditText 
+		android:password="true" />
+
+	<EditText
 		android:id="@+id/AdminPass1"
-		android:password="true"
+		android:layout_width="329dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:layout_gravity="center"
+		android:hint="Confirm Password"
 		android:paddingTop="20px"
-		android:layout_height="wrap_content" 
-		android:hint="Spl Pass" 
-		android:layout_width="350px" 
-		android:layout_gravity="center">
-  </EditText>
-  <Button 
-  		android:id="@+id/sin"
-  		android:paddingTop="20px"
-  		android:text="Sign in"
-  		android:layout_gravity="center"
-  		android:layout_width="150px"
-  		android:layout_height="wrap_content"
-  		android:onClick="admin_home"
-  		android:clickable="true"
-  		
-  />
- 
+		android:password="true"/>
+
+	<Button
+		android:id="@+id/sin"
+		style="@android:style/Widget.Button"
+		android:layout_width="330dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:background="@android:color/background_light"
+		android:clickable="true"
+		android:onClick="admin_home"
+		android:text="Sign Up"
+		android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.EditText"
+		android:textColor="@android:color/holo_blue_light" />
+
 </LinearLayout>

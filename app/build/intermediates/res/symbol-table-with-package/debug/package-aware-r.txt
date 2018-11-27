@@ -1,4 +1,16 @@
 com.attendancesystem
+attr cardBackgroundColor
+attr cardCornerRadius
+attr cardElevation
+attr cardMaxElevation
+attr cardPreventCornerOverlap
+attr cardUseCompatPadding
+attr cardViewStyle
+attr contentPadding
+attr contentPaddingBottom
+attr contentPaddingLeft
+attr contentPaddingRight
+attr contentPaddingTop
 attr coordinatorLayoutStyle
 attr font
 attr fontProviderAuthority
@@ -18,6 +30,10 @@ attr layout_insetEdge
 attr layout_keyline
 attr statusBarBackground
 bool abc_action_bar_embed_tabs
+color cardview_dark_background
+color cardview_light_background
+color cardview_shadow_end_color
+color cardview_shadow_start_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
@@ -28,11 +44,15 @@ color secondary_text_default_material_light
 color white
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen cardview_compat_inset_shadow
+dimen cardview_default_elevation
+dimen cardview_default_radius
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
 dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
+dimen line
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -48,6 +68,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+drawable dark
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -133,6 +154,12 @@ id submit
 id tag_transition_group
 id text
 id text2
+id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
 id time
 id title
 id top
@@ -171,6 +198,10 @@ string hello
 string status_bar_notification_info_overflow
 style AppBaseTheme
 style AppTheme
+style Base_CardView
+style CardView
+style CardView_Dark
+style CardView_Light
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
 style TextAppearance_Compat_Notification_Info_Media
@@ -184,6 +215,7 @@ style TextAppearance_Compat_Notification_Title_Media
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 style Widget_Support_CoordinatorLayout
+styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
