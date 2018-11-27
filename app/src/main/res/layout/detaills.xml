@@ -81,16 +81,16 @@ android:gravity="center"
   			
 
  </RelativeLayout>
- <ListView 
-			android:layout_width="fill_parent"
-			android:layout_height="50dp"
-			android:drawSelectorOnTop="false"
-			android:cacheColorHint="#00000000" 
-			android:id="@android:id/list"
-	 android:layout_marginTop="20dp"
-	 android:layout_marginLeft="10dp"
-	 android:layout_marginRight="10dp"
-	 android:elevation="30dp"
-	 tools:ignore="UnusedAttribute">
-		</ListView>
+
+	<ListView
+		android:id="@android:id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="317dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="20dp"
+		android:cacheColorHint="#00000000"
+		android:drawSelectorOnTop="false"
+		android:elevation="30dp"
+		tools:ignore="UnusedAttribute"></ListView>
     </LinearLayout>
