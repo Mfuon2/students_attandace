@@ -248,12 +248,12 @@ public class DBAdapter
     }
     public Cursor getRecordBycode(String code) throws SQLException 
     {
-    	Log.i("Ayaan", "GETTING STUDENT RECORD");
+    	Log.i("Ayaan ******* ", "GETTING STUDENT RECORD");
     	Cursor mCursor =
                 db.query(true, DATABASE_TABLE2, new String[] {
                 		KEY_ROWID,
-                		KEY_SNAME, 
-                		KEY_USN,
+                		KEY_SNAME,
+                		KEY_USN ,
                 		KEY_CODE,
                 		KEY_ATTEND,
                 		KEY_MISSED,

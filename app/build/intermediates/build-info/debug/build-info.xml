@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1543337791270"
+    timestamp="1543664401542"
     token="8445480366037108950"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1543327093036"
+        timestamp="1543662604926"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -73,7 +73,16 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1543337791270"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1543663678395"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1543664401542"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Brian Ndirangu\AndroidStudioProjects\AttendanceSystem1\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"

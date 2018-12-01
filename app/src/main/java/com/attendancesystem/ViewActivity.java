@@ -30,8 +30,8 @@ public class ViewActivity extends ListActivity {
         			this, 
         			R.layout.display, 
         			c, 
-        			new String[] {"Usn", "Attended", "Missed"}, 
-        			new int[] {R.id.Usn,R.id.Attended,R.id.Missed});
+        			new String[] {"Usn","Sname", "Attended", "Missed"},
+        			new int[] {R.id.Usn,R.id.Sname,R.id.Attended,R.id.Missed});
         	setListAdapter(adapter);
         			db.close();
          
